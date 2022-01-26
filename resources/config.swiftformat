@@ -1,7 +1,4 @@
-# Current version of SwiftFormat used at Airbnb: 
-# https://github.com/calda/SwiftFormat/releases/tag/0.49-beta-4
-
-# options
+# Options
 --self remove # redundantSelf
 --importgrouping testable-bottom # sortedImports
 --commas always # trailingCommas
@@ -22,6 +19,7 @@
 --structthreshold 20 # organizeDeclarations
 --enumthreshold 20 # organizeDeclarations
 --organizetypes class,struct,enum,extension # organizeDeclarations
+--lifecycle viewDidLoad,viewWillAppear,viewDidAppear,viewDidLayoutSubviews,traitCollectionDidChange,options # organizeDeclarations
 --extensionacl on-declarations # extensionAccessControl
 --patternlet inline # hoistPatternLet
 --redundanttype inferred # redundantType
@@ -39,7 +37,6 @@
 --rules hoistPatternLet
 --rules indent
 --rules markTypes
---rules organizeDeclarations
 --rules redundantParens
 --rules redundantReturn
 --rules redundantSelf
@@ -49,7 +46,7 @@
 --rules redundantFileprivate
 --rules redundantRawValues
 --rules sortedImports
---rules sortDeclarations
+--rules organizeDeclarations
 --rules strongifiedSelf
 --rules trailingCommas
 --rules trailingSpace
