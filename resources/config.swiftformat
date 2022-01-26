@@ -22,6 +22,7 @@
 --structthreshold 20 # organizeDeclarations
 --enumthreshold 20 # organizeDeclarations
 --organizetypes class,struct,enum,extension # organizeDeclarations
+--lifecycle viewDidLoad viewWillAppear viewDidAppear viewDidLayoutSubviews traitCollectionDidChange options # organizeDeclarations
 --extensionacl on-declarations # extensionAccessControl
 --patternlet inline # hoistPatternLet
 --redundanttype inferred # redundantType
@@ -49,7 +50,7 @@
 --rules redundantFileprivate
 --rules redundantRawValues
 --rules sortedImports
---rules sortDeclarations
+--rules organizeDeclarations
 --rules strongifiedSelf
 --rules trailingCommas
 --rules trailingSpace
