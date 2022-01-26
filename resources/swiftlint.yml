@@ -14,12 +14,12 @@ only_rules:
   - void_return
   - custom_rules
 
-excluded:
-  - Carthage
-  - Pods
-
 colon:
   apply_to_dictionaries: false
+
+excluded:
+  - ../../PrimerLib/.build
+  - "**/*.graphql.swift"
 
 indentation: 2
 

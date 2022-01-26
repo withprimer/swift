@@ -1,7 +1,4 @@
-# Current version of SwiftFormat used at Airbnb: 
-# https://github.com/calda/SwiftFormat/releases/tag/0.49.10-beta-1
-
-# options
+# Options
 --self remove # redundantSelf
 --importgrouping testable-bottom # sortedImports
 --commas always # trailingCommas
@@ -22,6 +19,7 @@
 --structthreshold 20 # organizeDeclarations
 --enumthreshold 20 # organizeDeclarations
 --organizetypes class,struct,enum,extension # organizeDeclarations
+--lifecycle viewDidLoad,viewWillAppear,viewDidAppear,viewWillDisappear,viewDidDisappear,viewDidLayoutSubviews,traitCollectionDidChange,options,setUp # organizeDeclarations
 --extensionacl on-declarations # extensionAccessControl
 --patternlet inline # hoistPatternLet
 --redundanttype inferred # redundantType
@@ -33,8 +31,10 @@
 # rules
 --rules anyObjectProtocol
 --rules blankLinesBetweenScopes
+--rules blockComments
 --rules consecutiveSpaces
 --rules duplicateImports
+--rules enumNamespaces
 --rules extensionAccessControl
 --rules hoistPatternLet
 --rules indent
@@ -58,17 +58,16 @@
 --rules wrapMultilineStatementBraces
 --rules wrapArguments
 --rules wrapAttributes
+--rules wrapMultilineStatementBraces
 --rules braces
 --rules redundantClosure
 --rules redundantInit
 --rules redundantVoidReturnType
 --rules unusedArguments
---rules spaceInsideBrackets
---rules spaceInsideBraces
 --rules spaceAroundBraces
---rules spaceInsideParens
---rules spaceAroundParens
---rules enumNamespaces
---rules blockComments
 --rules spaceAroundComments
+--rules spaceAroundParens
+--rules spaceInsideBraces
+--rules spaceInsideBrackets
 --rules spaceInsideComments
+--rules spaceInsideParens
