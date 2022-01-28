@@ -19,6 +19,9 @@ colon:
 
 indentation: 2
 
+excluded:
+  - PrimerLib/PrimerCore/Generated
+
 custom_rules:
   no_objcMembers:
     name: "@objcMembers"
