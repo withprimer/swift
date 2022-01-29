@@ -20,7 +20,7 @@ colon:
 indentation: 2
 
 excluded:
-  - PrimerLib/PrimerCore/Generated
+  - PrimerLib/Sources/PrimerCore/Generated
 
 custom_rules:
   no_objcMembers:
