@@ -19,6 +19,7 @@ colon:
 
 excluded:
   - ../../PrimerLib/.build
+  - ../../PrimerScratch/*
   - "**/*.graphql.swift"
 
 indentation: 2
